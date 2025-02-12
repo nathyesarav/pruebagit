@@ -40,3 +40,7 @@ git branch develop
 ````shell
 git checkout develop
 ````
+Para què sirve git log
+````shell
+git log
+````
