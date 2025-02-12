@@ -1,0 +1,23 @@
+{
+  "name": "pruebagit",
+  "version": "1.0.0",
+  "description": "La primera vez que usamos git en una maquina debemos configurar el user y el email y comprobarlo:\r ````shell\r git config --global user.email email@email.com\r git config --global user.name nombredeusuario\r ````\r Para comprobar configuracion\r ```` shell\r git config --list\r ````\r Para iniciar en repositorio en local (solo la primera vez)\r ````shell\r git init\r ````\r Para hacer que git controle nuestros archivos\r ````shell\r git add readme.md\r ````\r Para saber el status de git:\r ````shell\r git status\r ````\r Para confirma el commit:\r ````shell\r git commit -m 'nombrecommit'\r ````\r Para què sirve git log\r ````shell\r git log\r git log --graph\r ````",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathyesarav/pruebagit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathyesarav/pruebagit/issues"
+  },
+  "homepage": "https://github.com/nathyesarav/pruebagit#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

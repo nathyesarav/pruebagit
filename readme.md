@@ -25,22 +25,24 @@ Para confirma el commit:
 ````shell
 git commit -m 'nombrecommit'
 ````
-
+Para què sirve git log
 ````shell
+git log
 git log --graph
 ````
 
 ````shell
 git checkout
 ````
-Para crear una rama de desarrollo:
+Crear una rama de desarrollo:
 ````shell
-git branch develop
+git branch nombrebranch
 ````
+Cambiar a la rama
 ````shell
 git checkout develop
 ````
-Para què sirve git log
+Listar las ramas
 ````shell
-git log
+git branch
 ````
